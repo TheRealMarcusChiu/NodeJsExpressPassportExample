@@ -1,0 +1,49 @@
+2017-09-04T09:57:04.897-0500 I CONTROL  [initandlisten] MongoDB starting : pid=22131 port=27017 dbpath=/Users/marcus.chiu/ComputerScience/ProgramLanguages/WebLanguages/BigThree/JavaScript/Frameworks/NodeJs/Framework/ExpressWebServer/ExampleProjects/PassportExample/data 64-bit host=YourMom.local
+2017-09-04T09:57:04.898-0500 I CONTROL  [initandlisten] db version v3.4.7
+2017-09-04T09:57:04.898-0500 I CONTROL  [initandlisten] git version: cf38c1b8a0a8dca4a11737581beafef4fe120bcd
+2017-09-04T09:57:04.898-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2l  25 May 2017
+2017-09-04T09:57:04.898-0500 I CONTROL  [initandlisten] allocator: system
+2017-09-04T09:57:04.898-0500 I CONTROL  [initandlisten] modules: none
+2017-09-04T09:57:04.898-0500 I CONTROL  [initandlisten] build environment:
+2017-09-04T09:57:04.898-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-09-04T09:57:04.898-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-09-04T09:57:04.898-0500 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/Users/marcus.chiu/ComputerScience/ProgramLanguages/WebLanguages/BigThree/JavaScript/Frameworks/NodeJs/Framework/ExpressWebServer/ExampleProjects/Pass..." }, systemLog: { destination: "file", path: "/Users/marcus.chiu/ComputerScience/ProgramLanguages/WebLanguages/BigThree/JavaScript/Frameworks/NodeJs/Framework/ExpressWebServer/ExampleProjects/Pass..." } }
+2017-09-04T09:57:04.899-0500 I -        [initandlisten] Detected data files in /Users/marcus.chiu/ComputerScience/ProgramLanguages/WebLanguages/BigThree/JavaScript/Frameworks/NodeJs/Framework/ExpressWebServer/ExampleProjects/PassportExample/data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-09-04T09:57:04.899-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-09-04T09:57:05.574-0500 I CONTROL  [initandlisten] 
+2017-09-04T09:57:05.574-0500 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-09-04T09:57:05.574-0500 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-09-04T09:57:05.574-0500 I CONTROL  [initandlisten] 
+2017-09-04T09:57:05.577-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/marcus.chiu/ComputerScience/ProgramLanguages/WebLanguages/BigThree/JavaScript/Frameworks/NodeJs/Framework/ExpressWebServer/ExampleProjects/PassportExample/data/diagnostic.data'
+2017-09-04T09:57:05.577-0500 I NETWORK  [thread1] waiting for connections on port 27017
+2017-09-04T09:57:06.806-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:53353 #1 (1 connection now open)
+2017-09-04T09:57:06.808-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:53354 #2 (2 connections now open)
+2017-09-04T09:57:06.811-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:53355 #3 (3 connections now open)
+2017-09-04T09:57:06.812-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:53356 #4 (4 connections now open)
+2017-09-04T09:57:06.814-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:53357 #5 (5 connections now open)
+2017-09-04T09:58:38.952-0500 I -        [conn3] end connection 127.0.0.1:53355 (5 connections now open)
+2017-09-04T09:58:38.952-0500 I -        [conn5] end connection 127.0.0.1:53357 (5 connections now open)
+2017-09-04T09:58:38.952-0500 I -        [conn4] end connection 127.0.0.1:53356 (5 connections now open)
+2017-09-04T09:58:38.952-0500 I -        [conn2] end connection 127.0.0.1:53354 (5 connections now open)
+2017-09-04T09:58:38.952-0500 I -        [conn1] end connection 127.0.0.1:53353 (5 connections now open)
+2017-09-04T09:58:39.597-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:53362 #6 (1 connection now open)
+2017-09-04T09:58:39.600-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:53363 #7 (2 connections now open)
+2017-09-04T09:58:39.602-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:53364 #8 (3 connections now open)
+2017-09-04T09:58:39.604-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:53365 #9 (4 connections now open)
+2017-09-04T09:58:39.606-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:53366 #10 (5 connections now open)
+2017-09-04T09:59:59.378-0500 I -        [conn8] end connection 127.0.0.1:53364 (5 connections now open)
+2017-09-04T09:59:59.378-0500 I -        [conn7] end connection 127.0.0.1:53363 (5 connections now open)
+2017-09-04T09:59:59.378-0500 I -        [conn9] end connection 127.0.0.1:53365 (5 connections now open)
+2017-09-04T09:59:59.378-0500 I -        [conn10] end connection 127.0.0.1:53366 (5 connections now open)
+2017-09-04T09:59:59.378-0500 I -        [conn6] end connection 127.0.0.1:53362 (5 connections now open)
+2017-09-04T09:59:59.431-0500 I CONTROL  [signalProcessingThread] got signal 15 (Terminated: 15), will terminate after current cmd ends
+2017-09-04T09:59:59.431-0500 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2017-09-04T09:59:59.431-0500 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2017-09-04T09:59:59.431-0500 I NETWORK  [signalProcessingThread] closing listening socket: 8
+2017-09-04T09:59:59.431-0500 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2017-09-04T09:59:59.431-0500 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2017-09-04T09:59:59.431-0500 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2017-09-04T09:59:59.433-0500 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2017-09-04T09:59:59.541-0500 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2017-09-04T09:59:59.542-0500 I CONTROL  [signalProcessingThread] now exiting
+2017-09-04T09:59:59.542-0500 I CONTROL  [signalProcessingThread] shutting down with code:0
